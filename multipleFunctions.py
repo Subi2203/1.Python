@@ -1,5 +1,16 @@
 class functionAssignments():
-   
+    def Subfields():
+        print("Sub-fields in AI are:")
+        lists = ["Machine Learning","Neural Networks","Vision","Robotics","Speech Processing","Natural Language Processing"]
+        for aiNames in lists:
+            print(aiNames)
+            
+    def OddEven():
+        oddEvenNo = int(input("Enter a number:"))
+        if(oddEvenNo%2 == 1):
+            print(oddEvenNo,"is odd number")
+        else:
+            print(oddEvenNo,"is even number")
             
     def Eligible():
         gender=input("Your Gender:")
